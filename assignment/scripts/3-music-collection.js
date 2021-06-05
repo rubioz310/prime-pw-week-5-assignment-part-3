@@ -28,3 +28,17 @@ function showCollection(thisCollection){
 }
 //Calling previous function
 showCollection(collection);
+//Function that finds all albums by the given artist
+function findByArtist(artist){
+  let artistAlbums = [];
+  for( let thisAlbum of collection ){
+    if ( thisAlbum.artist === artist ){
+      artistAlbums.push(thisAlbum);
+    }
+  }
+  return artistAlbums;
+}
+//Testing of findByArtist function
+console.log(findByArtist('Mago de oz'));
+console.log(findByArtist('Korpiklaani'));
+console.log(findByArtist('Lepoka'));
