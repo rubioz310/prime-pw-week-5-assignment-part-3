@@ -15,9 +15,9 @@ function addCollection( title, artist, yearPublished ){
 console.log(addCollection('Finisterra', 'Mago de oz', '2000'));
 console.log(addCollection('Beerserkers', 'Lepoka', '2016'));
 console.log(addCollection('No Grave But the Sea', 'Alestorm', '2017'));
-console.log(addCollection('Karkelo', 'Korpiklaani', '2009'));
+console.log(addCollection('Jesus de Chamberi', 'Mago de oz', '1996'));
 console.log(addCollection('Buiikikaesu', 'Maximum the Hormone', '2007'));
-console.log(addCollection(`The Warrior's Code`,'Dropkick Murphys', '2005'));
+console.log(addCollection('Back Through Time', 'Alestorm', '2011'));
 console.log(collection);
 // Function that list all albums in the collection
 function showCollection(thisCollection){
